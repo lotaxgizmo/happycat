@@ -6,15 +6,15 @@ import happytotalstuff from '../assets/happytotalstuff.svg'
 function Tokenomics() {
     return (
         <div>
-            <div className="outer flex flex-row m-10 items-center">
-                <div className="left flex flex-col w-6/12 items-end pr-20">
+            <div className="outer flex  lg:flex-row flex-col m-10 items-center">
+                <div className="left flex flex-col lg:w-6/12 lg:items-end lg:pr-20 mb-10">
                     <img src={happytokenomics} className='w-[500px] mb-10' alt="" />
                     <img src={happyyellowbuy} alt="" />
 
                 </div>
 
-                <div className="right w-6/12 bg-black/30 rounded-2xl p-20">
-                    <img src={happytotalstuff} alt="" />
+                <div className="right lg:w-6/12 bg-black/30 rounded-2xl p-3 lg:p-20">
+                    <img src={happytotalstuff} className='w-96 lg:w-auto' alt="" />
 
                 </div>
             </div>

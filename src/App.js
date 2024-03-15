@@ -10,8 +10,8 @@ function App() {
     <div className="overflow-clip">
       <Hero />
       <Welcome />
-      {/* <Tokenomics />
-      <Howto /> */}
+      <Tokenomics />
+      <Howto />
     </div>
   );
 }
