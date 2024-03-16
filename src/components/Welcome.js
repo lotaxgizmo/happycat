@@ -1,7 +1,7 @@
 import React from 'react'
 import whalecum from '../assets/whalecum.svg'
 import abouthappycat from '../assets/abouthappycat.svg'
-import welcomecat from '../assets/welcomecat.svg'
+import welcomecat from '../assets/bggif.gif'
 import linebg from '../assets/linebg.svg'
 import happycatbuy from '../assets/happycatbuy.svg'
 
@@ -16,7 +16,7 @@ function Welcome() {
                     <img src={linebg} className='linebg max-w-max w-[10000px] absolute z-0' alt="" />
                     <div className="divided flex flex-col lg:flex-row lg:p-20  z-10">
                         <div className="first lg:w-6/12 flex flex-col items-center justify-center z-10">
-                            <img src={welcomecat} className='w-60 lg:w-auto' alt="" />
+                            <img src={welcomecat} className='w-60 lg:w-96' alt="" />
 
                         </div>
                         <div className="second lg:w-6/12 flex flex-col items-center lg:items-end  z-10">
